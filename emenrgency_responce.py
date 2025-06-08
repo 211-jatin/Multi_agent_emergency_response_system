@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 class EmergencyCoordinationSystem:
     def __init__(self):
-        # API key yahan dal dena hai
+        # Put your API key here
         GOOGLE_API_KEY = "api_key"
         
         self.llm = ChatGoogleGenerativeAI(
@@ -28,7 +28,7 @@ class EmergencyCoordinationSystem:
         
         self.agents = {}
         self.message_history = []
-        # Emergency ke resources track karne ke liye
+        # Track emergency resources
         self.emergency_status = {
             "active_incidents": [],
             "available_resources": {
@@ -41,10 +41,10 @@ class EmergencyCoordinationSystem:
         }
         
         self.setup_agents()
-        logger.info("System ready ho gaya")
+        logger.info("System is ready")
     
     def setup_agents(self):
-        # Dispatch agent ke tools
+        # Dispatch agent tools
         dispatch_tools = [
             Tool(name="request_resources", 
                  description="Request emergency resources", 
@@ -117,7 +117,7 @@ class EmergencyCoordinationSystem:
                  func=self.coordinate_medical_response)
         ]
         
-        # Sab agents banate hain
+        # Creating all the agents here
         self.create_agent("dispatch", dispatch_tools, "Emergency Dispatch Coordinator")
         self.create_agent("resource", resource_tools, "Resource Manager")
         self.create_agent("route", route_tools, "Route Planner")
@@ -160,7 +160,7 @@ class EmergencyCoordinationSystem:
     def request_resources(self, request: str) -> str:
         logger.info(f"Resource request: {request}")
         
-        # Simple resource allocation logic
+        # Simple resource allocation logic - checks what type of vehicle is needed
         if "ambulance" in request.lower():
             count = self.extract_number(request)
             available = self.emergency_status["available_resources"]["ambulances"]
@@ -181,7 +181,7 @@ class EmergencyCoordinationSystem:
         return result
     
     def get_route_info(self, location: str) -> str:
-        # Mock route data
+        # Mock route data - in real system this would call GPS/Maps API
         routes = [
             f"Highway route to {location}: 12 mins",
             f"City route to {location}: 15 mins", 
@@ -235,17 +235,17 @@ class EmergencyCoordinationSystem:
         print("Emergency Response Simulation")
         print("=" * 50)
         
-        # Accident scenario banate hain
+        # Creating an accident scenario
         emergency_details = """
-        Highway 101 pe accident - Mile 45
-        4 log injured (2 critical, 2 minor)
+        Accident on Highway 101 - Mile 45
+        4 people injured (2 critical, 2 minor)
         3 cars + 1 truck involved
-        Traffic jam ho gaya, alternate routes chahiye
+        Traffic jam created, need alternate routes
         """
         
         print(emergency_details)
         
-        # Step by step response
+        # Step by step response - each agent handles their part
         print("\nStep 1: Dispatch")
         dispatch_resp = self.agents["dispatch"].invoke({
             "input": f"Emergency: {emergency_details} - coordinate response"
@@ -305,5 +305,6 @@ def main():
         print(f"Error: {e}")
         print("Check your API key!")
 
+# Run the system
 if __name__ == "__main__":
     main()
