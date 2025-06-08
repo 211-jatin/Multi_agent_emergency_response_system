@@ -6,7 +6,7 @@
 emergency-response-system/
 ├── README.md                  # Project overview and setup instructions
 ├── emergency_responce.py      # Main Python file with all agent logic
-├── emergency_response.log     # Log file with runtime events and debug info
+├── logs.log                   # Log file with runtime events and debug info
 ├── output.txt                 # Stores sample emergency response outputs
 ├── requirements.txt           # Python dependencies to run the project
 ```
@@ -16,7 +16,7 @@ emergency-response-system/
 * **`README.md`**: Summarized explanation of the project.
 * **`emergency_responce.py`**: Main script that defines the EmergencyCoordinationSystem, agents, and the simulation.
 * **`output.txt`**: Shows the result of running the system (sample output).
-* **`emergency_response.log`**: Keeps logs for debugging and tracking.
+* **`logs.log`**: Keeps logs for debugging and tracking.
 * **`requirements.txt`**: Contains packages like `langchain`, `google-genai` to install via `pip`.
 
 ---
