@@ -1,0 +1,68 @@
+
+2025-06-08 18:58:01,282 - __main__ - ERROR - System error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-06-08 18:58:31,731 - __main__ - ERROR - System error: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+2025-06-08 19:00:04,290 - __main__ - ERROR - System error: Prompt missing required variables: {'tools', 'tool_names'}
+2025-06-08 19:01:00,561 - __main__ - ERROR - System error: Prompt missing required variables: {'tools', 'tool_names'}
+2025-06-08 19:03:46,162 - __main__ - ERROR - System error: Prompt missing required variables: {'tools', 'tool_names'}
+2025-06-08 19:04:50,195 - __main__ - ERROR - System error: Prompt missing required variables: {'tools', 'tool_names'}
+2025-06-08 19:06:05,212 - __main__ - ERROR - System error: Prompt missing required variables: {'tools', 'tool_names'}
+2025-06-08 19:08:35,517 - __main__ - INFO - All agents initialized successfully
+2025-06-08 19:08:35,517 - __main__ - INFO - Emergency Response Coordination System Initialized
+2025-06-08 19:08:35,517 - __main__ - INFO - ============================================================
+2025-06-08 19:08:35,517 - __main__ - INFO - 🚨 EMERGENCY RESPONSE SIMULATION STARTED
+2025-06-08 19:08:35,517 - __main__ - INFO - ============================================================
+2025-06-08 19:08:37,566 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised NotFound: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-06-08 19:08:39,892 - __main__ - ERROR - System error: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-06-08 19:10:02,886 - __main__ - INFO - All agents initialized successfully
+2025-06-08 19:10:02,886 - __main__ - INFO - Emergency Response Coordination System Initialized
+2025-06-08 19:10:02,886 - __main__ - INFO - ============================================================
+2025-06-08 19:10:02,887 - __main__ - INFO - 🚨 EMERGENCY RESPONSE SIMULATION STARTED
+2025-06-08 19:10:02,887 - __main__ - INFO - ============================================================
+2025-06-08 19:10:04,529 - langchain_google_genai.chat_models - WARNING - Retrying langchain_google_genai.chat_models._chat_with_retry.<locals>._chat_with_retry in 2.0 seconds as it raised NotFound: 404 models/text-bison-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods..
+2025-06-08 19:10:06,851 - __main__ - ERROR - System error: 404 models/text-bison-001 is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-06-08 19:11:44,010 - __main__ - INFO - All agents initialized successfully
+2025-06-08 19:11:44,010 - __main__ - INFO - Emergency Response Coordination System Initialized
+2025-06-08 19:11:44,010 - __main__ - INFO - ============================================================
+2025-06-08 19:11:44,010 - __main__ - INFO - 🚨 EMERGENCY RESPONSE SIMULATION STARTED
+2025-06-08 19:11:44,010 - __main__ - INFO - ============================================================
+2025-06-08 19:11:46,450 - __main__ - INFO - 🚨 RESOURCE REQUEST: Multiple ambulances and one fire truck needed for a multi-vehicle accident on Highway 101, Mile Marker 45.  Two critical and two minor injuries reported.
+2025-06-08 19:11:46,450 - __main__ - INFO - 📋 RESOURCE RESPONSE: ❌ Only 5 ambulances available
+2025-06-08 19:11:47,718 - __main__ - INFO - 🚨 RESOURCE REQUEST: Request additional ambulances to respond to the multi-vehicle accident on Highway 101, Mile Marker 45.  We currently have 4 injured (2 critical, 2 minor) and only 5 ambulances available.
+2025-06-08 19:11:47,719 - __main__ - INFO - 📋 RESOURCE RESPONSE: ❌ Only 5 ambulances available
+2025-06-08 19:11:49,202 - __main__ - INFO - 📢 BROADCAST: Emergency Alert: Multi-vehicle accident on Highway 101, Mile Marker 45.  4 injured (2 critical, 2 minor).  Ambulance availability is limited; expect delays.  Nearby hospitals should prepare for multiple incoming patients.  All units respond with caution.
+2025-06-08 19:11:51,148 - __main__ - INFO - 🏥 MEDICAL PRIORITY: Medical assessment: Critical - Life threatening. Recommended response: Immediate dispatch required
+2025-06-08 19:11:52,365 - __main__ - INFO - 🏥 MEDICAL PRIORITY: Medical assessment: Critical - Life threatening. Recommended response: Immediate dispatch required
+2025-06-08 19:11:53,289 - __main__ - INFO - 🚑 MEDICAL COORDINATION: Medical response coordinated: Immediate dispatch required. Highway accident with 2 critical and 2 minor injuries.. Teams notified and en route
+2025-06-08 19:11:55,057 - __main__ - INFO - 📊 RESOURCE CHECK: Current availability - Ambulances: 5, Fire Trucks: 3, Helicopters: 2, Police: 8
+2025-06-08 19:11:56,562 - __main__ - INFO - 🎯 ALLOCATION: Resources allocated: highway accident: 1 ambulance, 1 helicopter, 1 fire truck
+2025-06-08 19:11:57,315 - __main__ - INFO - 📊 RESOURCE CHECK: Current availability - Ambulances: 5, Fire Trucks: 3, Helicopters: 2, Police: 8
+2025-06-08 19:11:59,161 - __main__ - INFO - 🚗 ROUTE CALC: Fastest route to Highway 101 Mile Marker 45: Highway Route - ETA 17 minutes
+2025-06-08 19:12:00,356 - __main__ - INFO - 🚦 TRAFFIC CHECK: Traffic on Highway Route: heavy traffic detected
+2025-06-08 19:12:01,258 - __main__ - INFO - 🚗 ROUTE CALC: Fastest route to Highway 101 Mile Marker 45; avoid Highway Route: Highway Route - ETA 20 minutes
+2025-06-08 19:12:03,148 - __main__ - INFO - 👁️ TRAFFIC MONITOR: Traffic monitoring active for Highway 101, Mile Marker 45 - Current status: normal
+2025-06-08 19:12:04,488 - __main__ - INFO - 👁️ TRAFFIC MONITOR: Traffic monitoring active for Highway 101, Mile Marker 45 - Current status: normal
+2025-06-08 19:12:05,454 - __main__ - INFO - 👁️ TRAFFIC MONITOR: Traffic monitoring active for Highway 101, Mile Marker 45 - Current status: normal
+2025-06-08 19:12:05,454 - __main__ - INFO - Emergency response simulation completed successfully
+2025-06-08 19:44:50,661 - __main__ - INFO - All agents initialized successfully
+2025-06-08 19:44:50,661 - __main__ - INFO - Emergency Response Coordination System Initialized
+2025-06-08 19:44:50,661 - __main__ - INFO - ============================================================
+2025-06-08 19:44:50,661 - __main__ - INFO - 🚨 EMERGENCY RESPONSE SIMULATION STARTED
+2025-06-08 19:44:50,661 - __main__ - INFO - ============================================================
+2025-06-08 19:44:53,398 - __main__ - INFO - 🚨 RESOURCE REQUEST: Multiple ambulances (at least 3), one fire truck, and one helicopter to Highway 101, Mile Marker 45. Multi-vehicle accident with 4 injuries (2 critical).
+2025-06-08 19:44:53,399 - __main__ - INFO - 📋 RESOURCE RESPONSE: ✅ 3 ambulances dispatched successfully
+2025-06-08 19:44:54,635 - __main__ - INFO - 🚨 RESOURCE REQUEST: Multiple ambulances (at least 3), one fire truck, and one helicopter to Highway 101, Mile Marker 45. Multi-vehicle accident with 4 injuries (2 critical).
+2025-06-08 19:44:54,635 - __main__ - INFO - 📋 RESOURCE RESPONSE: ❌ Only 2 ambulances available
+2025-06-08 19:44:56,154 - __main__ - INFO - 🚨 RESOURCE REQUEST: 2 ambulances, 1 fire truck, and 1 helicopter to Highway 101, Mile Marker 45. Multi-vehicle accident with 4 injuries (2 critical).
+2025-06-08 19:44:56,155 - __main__ - INFO - 📋 RESOURCE RESPONSE: ✅ 2 ambulances dispatched successfully
+2025-06-08 19:44:58,089 - __main__ - INFO - 🏥 MEDICAL PRIORITY: Medical assessment: High - Serious injury. Recommended response: Immediate dispatch required
+2025-06-08 19:44:59,351 - __main__ - INFO - 🏥 MEDICAL PRIORITY: Medical assessment: Critical - Life threatening. Recommended response: Immediate dispatch required
+2025-06-08 19:45:00,237 - __main__ - INFO - 🚑 MEDICAL COORDINATION: Medical response coordinated: Critical - Life threatening.  Highway accident with 2 critical and 2 minor injuries.. Teams notified and en route
+2025-06-08 19:45:02,078 - __main__ - INFO - 📊 RESOURCE CHECK: Current availability - Ambulances: 0, Fire Trucks: 3, Helicopters: 2, Police: 8
+2025-06-08 19:45:03,221 - __main__ - INFO - 📊 RESOURCE CHECK: Current availability - Ambulances: 0, Fire Trucks: 3, Helicopters: 2, Police: 8
+2025-06-08 19:45:04,147 - __main__ - INFO - 🎯 ALLOCATION: Resources allocated: Allocate 3 fire trucks and 2 helicopters to highway accident.
+2025-06-08 19:45:05,981 - __main__ - INFO - 🚗 ROUTE CALC: Fastest route to Highway 101 Mile Marker 45: Highway Route - ETA 10 minutes
+2025-06-08 19:45:07,164 - __main__ - INFO - 🚦 TRAFFIC CHECK: Traffic on Highway Route: light traffic detected
+2025-06-08 19:45:10,360 - __main__ - INFO - 👁️ TRAFFIC MONITOR: Traffic monitoring active for Highway 101 - Current status: normal
+2025-06-08 19:45:11,268 - __main__ - INFO - 👁️ TRAFFIC MONITOR: Traffic monitoring active for Highway 101 - Current status: normal
+2025-06-08 19:45:12,602 - __main__ - INFO - 👁️ TRAFFIC MONITOR: Traffic monitoring active for Highway 101, Mile Marker 45 - Current status: normal
+2025-06-08 19:45:12,602 - __main__ - INFO - Emergency response simulation completed successfully
