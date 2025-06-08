@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 class EmergencyCoordinationSystem:
     def __init__(self):
         # API key yahan dal dena hai
-        GOOGLE_API_KEY = "AIzaSyBmpzxwo-xEW-kUxWF6qNdvVqDVclAtYcY"
+        GOOGLE_API_KEY = "api_key"
         
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-1.5-flash",
