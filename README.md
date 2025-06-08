@@ -1,6 +1,4 @@
-Here's a clean and simple explanation of your **file system** and **how the project works**, followed by a **flowchart** of the emergency response process.
 
----
 
 ## 🗂️ Project File Structure Explained
 
