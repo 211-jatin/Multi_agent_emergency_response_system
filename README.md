@@ -180,8 +180,6 @@ Resources allocated: ambulances=2, helicopters=1
 - API integration and error handling
 
 ---
-
-**Submission Date**: June 8, 2025  
 **Project Type**: AI Multi-Agent System  
 **Domain**: Emergency Response Management  
 **Framework**: LangChain + Google Gemini AI
